@@ -17,7 +17,7 @@ dockitems_persist: []
 #   path: "/Applications/Sublime Text.app/"
 #   pos: 5
 
-configure_sudoers: false
+configure_sudoers: true
 sudoers_custom_config: ''
 # Example:
 # sudoers_custom_config: |
@@ -61,6 +61,7 @@ homebrew_installed_packages:
   - pv
   - wget
   - wrk
+  - htop
   - zsh-history-substring-search
 
 homebrew_taps:
@@ -72,7 +73,7 @@ homebrew_cask_apps:
   - chromedriver
   - docker
   - dropbox
-  - firefox
+#  - firefox
   - google-chrome
   - handbrake
   - licecap
@@ -81,6 +82,7 @@ homebrew_cask_apps:
   - sublime-text
   - transmit
   - vagrant
+  - iterm2
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
@@ -110,7 +112,7 @@ pip_packages: []
 #   version: "0.16.3" # default: N/A
 
 # Set to 'true' to configure Sublime Text.
-configure_sublime: false
+configure_sublime: true
 sublime_base_path: '~/Library/Application Support/Sublime Text'
 sublime_config_path: "Packages/User"
 sublime_package_control:
